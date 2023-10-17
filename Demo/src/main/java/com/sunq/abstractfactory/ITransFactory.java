@@ -1,4 +1,4 @@
-package com.sunq.factory;
+package com.sunq.abstractfactory;
 
 public interface ITransFactory {
 

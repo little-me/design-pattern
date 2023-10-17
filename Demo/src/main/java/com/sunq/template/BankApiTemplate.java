@@ -1,5 +1,11 @@
 package com.sunq.template;
-
+/**
+ * 模板方法模式
+ *
+ * @author SunQiang
+ * @date 2023/10/15 21:08
+ * @version 1.0
+ */
 public abstract class BankApiTemplate implements IBankApi {
     public boolean invoke() {
         String req = getReq();

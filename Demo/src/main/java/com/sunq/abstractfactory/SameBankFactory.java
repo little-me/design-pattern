@@ -1,6 +1,6 @@
-package com.sunq.factory;
+package com.sunq.abstractfactory;
 
-public class SameBankTransFactory implements ITransFactory {
+public class SameBankFactory implements ITransFactory {
 
     public ITrans getTransImpl() {
         return new SameBankTrans();
